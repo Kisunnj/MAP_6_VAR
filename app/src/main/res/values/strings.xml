@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Абитуриент</string>
+    <string name="title_main">Контрольная: запросы к SQLite</string>
+    <string name="menu_low_grades">а) Оценки ниже 7 по экзамену</string>
+    <string name="menu_sorted">б) Абитуриенты по среднему баллу ↓</string>
+    <string name="menu_semi_passing">в) Полупроходной балл</string>
+    <string name="title_low_grades">Ниже 7 по экзамену</string>
+    <string name="title_sorted">По убыванию среднего</string>
+    <string name="title_semi_passing">Полупроходной балл</string>
+    <string name="hint_low_grades">Выберите экзамен и нажмите «Показать».</string>
+    <string name="show_results">Показать</string>
+    <string name="label_exam">Экзамен</string>
+    <string name="empty_low_grades">Нет абитуриентов с оценкой ниже 7 по этому экзамену.</string>
+    <string name="desc_sorted">Сводный средний балл: среднее между средним баллом аттестата и средним по всем вступительным оценкам (если экзаменов нет — только аттестат). Список отсортирован по убыванию.</string>
+    <string name="desc_semi_passing">Полный список абитуриентов, у которых сводный средний попадает в интервал полупроходного балла [%1$.1f; %2$.1f).</string>
+    <string name="col_certificate_avg">Аттестат: %1$.2f</string>
+    <string name="col_certificate_short">Атт. %1$.2f</string>
+    <string name="col_exam_avg">Экз. ср. %1$.2f</string>
+    <string name="col_combined_avg">Сводный: %1$.2f</string>
+    <string name="col_grade_on_exam">Оценка: %1$.2f</string>
+    <string name="no_exam_grades">нет оценок за экзамены</string>
+
+    <string name="section_extra">Доп. задание (вариант 6)</string>
+    <string name="menu_notes_extra">Заметки с фото (камера / галерея)</string>
+    <string name="title_notes_extra">Заметки</string>
+    <string name="desc_notes_extra">MediaStore / Intent: прикрепление изображения к заметке.</string>
+    <string name="filter_all">Все заметки</string>
+    <string name="filter_with_photo">С фото</string>
+    <string name="empty_notes">Нет заметок</string>
+    <string name="add_note">Новая заметка</string>
+    <string name="title_new_note">Новая заметка</string>
+    <string name="title_edit_note">Редактирование</string>
+    <string name="hint_title">Заголовок</string>
+    <string name="hint_body">Текст заметки</string>
+    <string name="label_photo">Прикреплённое фото</string>
+    <string name="btn_camera">Сделать фото (камера)</string>
+    <string name="btn_gallery">Выбрать из галереи</string>
+    <string name="btn_remove_photo">Убрать фото</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="untitled">Без заголовка</string>
+    <string name="error_body_required">Введите текст заметки</string>
+    <string name="no_camera_app_hint">Камера недоступна. В эмуляторе: Device Manager → Edit → Camera: Webcam. Или «Выбрать из галереи».</string>
+    <string name="photo_failed">Не удалось сохранить снимок</string>
+    <string name="photo_pick_failed">Не удалось загрузить изображение</string>
+</resources>

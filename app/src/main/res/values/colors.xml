@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_primary">#1565C0</color>
+    <color name="md_theme_primary_container">#D0E4FF</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="screen_background">#F4F6F8</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#1B1B1F</color>
+    <color name="text_secondary">#44474F</color>
+    <color name="row_stroke">#33000000</color>
+</resources>
